@@ -20,4 +20,5 @@
 ### Week 1: Environment Setup
 - Initial consultation with the supervisor.
 - Initial literature review on AI applications in the public sector.
+
 ### Week 2:
