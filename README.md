@@ -1,29 +1,24 @@
-# Bakalárska práca: Využitie AI vo verejnej správe
+# Bachelor Thesis: Application of Artificial Intelligence in the Digital Transformation of Public Administration Processes
 
-**Študent:** Meno Priezvisko  
-**Školiteľ:** doc. Ing. Meno Priezvisko, PhD.  
-**Kontakt:** [tvoj@email.sk](mailto:tvoj@email.sk) | [GitHub Repozitár](https://github.com/dakotsvk/bakalarka-ai)
-
----
-
-## Zadanie
-**Anotácia:** Projekt sa zaoberá automatizovanou detekciou výtlkov pomocou hlbokého učenia (YOLOv11) pre potreby efektívnej údržby ciest.
-**Cieľ:** Navrhnúť, natrénovať a implementovať systém na lokalizáciu defektov vozovky z videozáznamu s následnou vizualizáciou na mape.
+**Student:** Daniel Kotuláč
+**Supervisor:** PhDr. Ing. Tomáš Gál, PhD. 
+**Contanct:** [kotulac1@uniba.sk](mailto:kotulac1@uniba.sk) | [GitHub](https://github.com/dakotsvk/Bakalarska-Praca)
 
 ---
 
-## Zdroje a odkazy
-* [Ultralytics YOLO Docs](https://docs.ultralytics.com/) - Technická dokumentácia modelu
-* [Global Road Damage Dataset](https://github.com/sekilab/RoadDamageDetector) - Východisková práca a dáta
-* [Folium Library](https://python-visualization.github.io/folium/) - Manuál pre generovanie máp
+## Thesis Assignment
+
+### Annotation This bachelor thesis investigates the potential of applying existing or emerging artificial intelligence techniques in the digital transformation of processes within state and public administration — it identifies concrete domains (registries, workflow systems, decision-making processes, verification automation, etc.) where AI could substantially lower transaction costs, streamline operations, and enhance service quality. The thesis also examines the obstacles to implementing these solutions (legal, ethical, technical), evaluates associated risks, and proposes strategies for optimal deployment in the Slovak public sector, drawing on current critiques of the state IT “underpinnings” and digitalization process shortcomings.
+### Aim of the Thesis The aim of the thesis is to identify and analyze opportunities for applying artificial intelligence in the digital transformation of public administration processes, with an emphasis on reducing transaction costs and improving service efficiency.
 
 ---
 
-## Denník aktivít
+## Resources & Bibliography
+
+---
+
+### Week 1: Environment Setup
 ### Týždeň 1
-- Výber témy a schválenie školiteľom.
-- Nastavenie vývojového prostredia (CUDA, PyTorch) na RTX 4090.
-
+- Initial consultation with the supervisor.
+- Initial literature review on AI applications in the public sector.
 ### Týždeň 2
-- Rešerš open-source datasetov.
-- Vytvorenie GitHub repozitára a webovej stránky projektu.
