@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e4d8b252f9bb04bdf5519789bcc2b7f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e4d8b252f9bb04bdf5519789bcc2b7f2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e4d8b252f9bb04bdf5519789bcc2b7f2 = L.map(
+                "map_e4d8b252f9bb04bdf5519789bcc2b7f2",
+                {
+                    center: [48.15001068401598, 17.06583273996004],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dab8ab74f70bfdf73e1223962629b134 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_dab8ab74f70bfdf73e1223962629b134.addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var marker_767aaaa8c4adeec500eea40cea94afbd = L.marker(
+                [48.15001068401598, 17.06583273996004],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_c20ebae80890ad6d62d288fc2526ae62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b22642c0b2d6b2eec12e5345bf45c428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_596fa7bd644768dd3dadd9ace17adb6d = $(`<div id="html_596fa7bd644768dd3dadd9ace17adb6d" style="width: 100.0%; height: 100.0%;">Pothole #1<br>Video: test<br>Confidence: 76.7%</div>`)[0];
+                popup_b22642c0b2d6b2eec12e5345bf45c428.setContent(html_596fa7bd644768dd3dadd9ace17adb6d);
+            
+        
+
+        marker_767aaaa8c4adeec500eea40cea94afbd.bindPopup(popup_b22642c0b2d6b2eec12e5345bf45c428)
+        ;
+
+        
+    
+    
+                marker_767aaaa8c4adeec500eea40cea94afbd.setIcon(icon_c20ebae80890ad6d62d288fc2526ae62);
+            
+    
+            var marker_242b4c4515fc59fcecee2dfe00ea2c65 = L.marker(
+                [48.15000959380619, 17.065836355744256],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_49fa4969b568c288a44470e8f2f7422d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_188e41f5b5a07ff0d832f0792541e39b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7611577bbe9a60f77e5f01ee5e05f0d7 = $(`<div id="html_7611577bbe9a60f77e5f01ee5e05f0d7" style="width: 100.0%; height: 100.0%;">Pothole #2<br>Video: test<br>Confidence: 79.2%</div>`)[0];
+                popup_188e41f5b5a07ff0d832f0792541e39b.setContent(html_7611577bbe9a60f77e5f01ee5e05f0d7);
+            
+        
+
+        marker_242b4c4515fc59fcecee2dfe00ea2c65.bindPopup(popup_188e41f5b5a07ff0d832f0792541e39b)
+        ;
+
+        
+    
+    
+                marker_242b4c4515fc59fcecee2dfe00ea2c65.setIcon(icon_49fa4969b568c288a44470e8f2f7422d);
+            
+    
+            var marker_9faa995f03f607f58ca547f4694097d2 = L.marker(
+                [48.15000558931069, 17.06584451068931],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_7addf896495580306c67ab56b38ce300 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_260220f65a17fa8078d488d04339f2e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f320e2594bebcf0c5fba0da89acd3570 = $(`<div id="html_f320e2594bebcf0c5fba0da89acd3570" style="width: 100.0%; height: 100.0%;">Pothole #3<br>Video: test<br>Confidence: 77.9%</div>`)[0];
+                popup_260220f65a17fa8078d488d04339f2e3.setContent(html_f320e2594bebcf0c5fba0da89acd3570);
+            
+        
+
+        marker_9faa995f03f607f58ca547f4694097d2.bindPopup(popup_260220f65a17fa8078d488d04339f2e3)
+        ;
+
+        
+    
+    
+                marker_9faa995f03f607f58ca547f4694097d2.setIcon(icon_7addf896495580306c67ab56b38ce300);
+            
+    
+            var marker_a6a8d717fd4de8d0c0f7551494fb45d4 = L.marker(
+                [48.1499829981019, 17.06590672897103],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_fef294847bc0296e5e63ea92e1aaea90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c5d6ab2991e73ad2cef9c757b01401f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec25a5258f5eefb64f8276818bf6284f = $(`<div id="html_ec25a5258f5eefb64f8276818bf6284f" style="width: 100.0%; height: 100.0%;">Pothole #4<br>Video: test<br>Confidence: 93.2%</div>`)[0];
+                popup_1c5d6ab2991e73ad2cef9c757b01401f.setContent(html_ec25a5258f5eefb64f8276818bf6284f);
+            
+        
+
+        marker_a6a8d717fd4de8d0c0f7551494fb45d4.bindPopup(popup_1c5d6ab2991e73ad2cef9c757b01401f)
+        ;
+
+        
+    
+    
+                marker_a6a8d717fd4de8d0c0f7551494fb45d4.setIcon(icon_fef294847bc0296e5e63ea92e1aaea90);
+            
+    
+            var marker_a236984a0cd064ab29a8b3c5e5086dc1 = L.marker(
+                [48.149970465134864, 17.06595457892108],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_e1298aef2b02394603eaeb4ffe409638 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a07a21621d3cf8f3dd61a946d4f0963 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b0a059d0b7c2c0c71cdb117d0173d8e = $(`<div id="html_0b0a059d0b7c2c0c71cdb117d0173d8e" style="width: 100.0%; height: 100.0%;">Pothole #5<br>Video: test<br>Confidence: 83.4%</div>`)[0];
+                popup_3a07a21621d3cf8f3dd61a946d4f0963.setContent(html_0b0a059d0b7c2c0c71cdb117d0173d8e);
+            
+        
+
+        marker_a236984a0cd064ab29a8b3c5e5086dc1.bindPopup(popup_3a07a21621d3cf8f3dd61a946d4f0963)
+        ;
+
+        
+    
+    
+                marker_a236984a0cd064ab29a8b3c5e5086dc1.setIcon(icon_e1298aef2b02394603eaeb4ffe409638);
+            
+    
+            var marker_17b8c84705a8cb1494e9d5e5872094f8 = L.marker(
+                [48.14996514855145, 17.065977787312686],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_3b972d8a557a1477576aee2a9bc578fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8df221a0afd2aab06325bebf64abbf3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7e24bd5077c8d9d13913ef59bd4850d = $(`<div id="html_f7e24bd5077c8d9d13913ef59bd4850d" style="width: 100.0%; height: 100.0%;">Pothole #6<br>Video: test<br>Confidence: 87.2%</div>`)[0];
+                popup_8df221a0afd2aab06325bebf64abbf3d.setContent(html_f7e24bd5077c8d9d13913ef59bd4850d);
+            
+        
+
+        marker_17b8c84705a8cb1494e9d5e5872094f8.bindPopup(popup_8df221a0afd2aab06325bebf64abbf3d)
+        ;
+
+        
+    
+    
+                marker_17b8c84705a8cb1494e9d5e5872094f8.setIcon(icon_3b972d8a557a1477576aee2a9bc578fe);
+            
+    
+            var marker_151b60a260927d0342c5c463418c93e1 = L.marker(
+                [48.1505817, 17.06679057192807],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_4a18e76c9057c7ffed4e4a40c3ee7442 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af114a84c4b0237ff4df44d01f910bd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d2bc1fd6c3bc024de5f189231254740 = $(`<div id="html_0d2bc1fd6c3bc024de5f189231254740" style="width: 100.0%; height: 100.0%;">Pothole #7<br>Video: test<br>Confidence: 79.3%</div>`)[0];
+                popup_af114a84c4b0237ff4df44d01f910bd1.setContent(html_0d2bc1fd6c3bc024de5f189231254740);
+            
+        
+
+        marker_151b60a260927d0342c5c463418c93e1.bindPopup(popup_af114a84c4b0237ff4df44d01f910bd1)
+        ;
+
+        
+    
+    
+                marker_151b60a260927d0342c5c463418c93e1.setIcon(icon_4a18e76c9057c7ffed4e4a40c3ee7442);
+            
+    
+            var marker_f4c8abe76333dab6e4baef97d97c85f4 = L.marker(
+                [48.15061703296703, 17.06683157912088],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_64385cebb168eed79d9cccf13ffe68e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5345b4e201b4b3851838a78ea6d6fe3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aa552d08b4cf5f1436915da601367dd = $(`<div id="html_9aa552d08b4cf5f1436915da601367dd" style="width: 100.0%; height: 100.0%;">Pothole #8<br>Video: test<br>Confidence: 80.0%</div>`)[0];
+                popup_a5345b4e201b4b3851838a78ea6d6fe3.setContent(html_9aa552d08b4cf5f1436915da601367dd);
+            
+        
+
+        marker_f4c8abe76333dab6e4baef97d97c85f4.bindPopup(popup_a5345b4e201b4b3851838a78ea6d6fe3)
+        ;
+
+        
+    
+    
+                marker_f4c8abe76333dab6e4baef97d97c85f4.setIcon(icon_64385cebb168eed79d9cccf13ffe68e3);
+            
+    
+            var marker_18c4594e05dfe7ba45b2eeadb7cbeb50 = L.marker(
+                [48.15061498171828, 17.06682792257742],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_f6ef57320d3d2c0cc559d609481d414c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a676e29c672da83f8f1c6c466bbf3b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d02bae95f69eb59c98316f89be26cac4 = $(`<div id="html_d02bae95f69eb59c98316f89be26cac4" style="width: 100.0%; height: 100.0%;">Pothole #9<br>Video: test<br>Confidence: 84.6%</div>`)[0];
+                popup_a676e29c672da83f8f1c6c466bbf3b68.setContent(html_d02bae95f69eb59c98316f89be26cac4);
+            
+        
+
+        marker_18c4594e05dfe7ba45b2eeadb7cbeb50.bindPopup(popup_a676e29c672da83f8f1c6c466bbf3b68)
+        ;
+
+        
+    
+    
+                marker_18c4594e05dfe7ba45b2eeadb7cbeb50.setIcon(icon_f6ef57320d3d2c0cc559d609481d414c);
+            
+    
+            var marker_cb8a2ac48bad827dc1505237ab22cdbf = L.marker(
+                [48.15061012127872, 17.066821189010987],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_4a28ffa7e6c697b55094a2762496c3b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61d2c3540682baabdd612cda6466628c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90dfef8887fb89e2dea3197b0608f341 = $(`<div id="html_90dfef8887fb89e2dea3197b0608f341" style="width: 100.0%; height: 100.0%;">Pothole #10<br>Video: test<br>Confidence: 84.0%</div>`)[0];
+                popup_61d2c3540682baabdd612cda6466628c.setContent(html_90dfef8887fb89e2dea3197b0608f341);
+            
+        
+
+        marker_cb8a2ac48bad827dc1505237ab22cdbf.bindPopup(popup_61d2c3540682baabdd612cda6466628c)
+        ;
+
+        
+    
+    
+                marker_cb8a2ac48bad827dc1505237ab22cdbf.setIcon(icon_4a28ffa7e6c697b55094a2762496c3b5);
+            
+    
+            var marker_ba9fddeeae9ebafed69e2874fa4d6a41 = L.marker(
+                [48.1506175036963, 17.06685534065934],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_bee1c3a3a4ff035b9ed4e5d69617e732 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_426939e3e3a2a89404d02cb715d2b6b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_426385fa6ac635592a4801ce4e03621c = $(`<div id="html_426385fa6ac635592a4801ce4e03621c" style="width: 100.0%; height: 100.0%;">Pothole #11<br>Video: test<br>Confidence: 76.7%</div>`)[0];
+                popup_426939e3e3a2a89404d02cb715d2b6b5.setContent(html_426385fa6ac635592a4801ce4e03621c);
+            
+        
+
+        marker_ba9fddeeae9ebafed69e2874fa4d6a41.bindPopup(popup_426939e3e3a2a89404d02cb715d2b6b5)
+        ;
+
+        
+    
+    
+                marker_ba9fddeeae9ebafed69e2874fa4d6a41.setIcon(icon_bee1c3a3a4ff035b9ed4e5d69617e732);
+            
+    
+            var marker_c053b42dfe20be023f655e7df9c113a4 = L.marker(
+                [48.150617986013984, 17.06688375594406],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_cbf20913da2bdd25f838380a9496345b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15af06d27684dd8c461d12b30c82ddce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6246b3e3e177abdcff7ccdd9a2279622 = $(`<div id="html_6246b3e3e177abdcff7ccdd9a2279622" style="width: 100.0%; height: 100.0%;">Pothole #12<br>Video: test<br>Confidence: 86.6%</div>`)[0];
+                popup_15af06d27684dd8c461d12b30c82ddce.setContent(html_6246b3e3e177abdcff7ccdd9a2279622);
+            
+        
+
+        marker_c053b42dfe20be023f655e7df9c113a4.bindPopup(popup_15af06d27684dd8c461d12b30c82ddce)
+        ;
+
+        
+    
+    
+                marker_c053b42dfe20be023f655e7df9c113a4.setIcon(icon_cbf20913da2bdd25f838380a9496345b);
+            
+    
+            var marker_ad3249a8c2aa92d402185e263261073d = L.marker(
+                [48.15070582607392, 17.06711751948052],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_9709ddae524225d0309a12fcfe19944e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1793cc82e133ec112eda16f31f136dc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_116f7135b02ef52f9663d41b92414e43 = $(`<div id="html_116f7135b02ef52f9663d41b92414e43" style="width: 100.0%; height: 100.0%;">Pothole #13<br>Video: test<br>Confidence: 88.8%</div>`)[0];
+                popup_1793cc82e133ec112eda16f31f136dc2.setContent(html_116f7135b02ef52f9663d41b92414e43);
+            
+        
+
+        marker_ad3249a8c2aa92d402185e263261073d.bindPopup(popup_1793cc82e133ec112eda16f31f136dc2)
+        ;
+
+        
+    
+    
+                marker_ad3249a8c2aa92d402185e263261073d.setIcon(icon_9709ddae524225d0309a12fcfe19944e);
+            
+    
+            var marker_c300a71cd57ebac2cd8e91cceaf3f7ef = L.marker(
+                [48.15071514425574, 17.067146321278724],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_784b1e111415c7df32cfdb801667ca67 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d68ccb17b90f2d0a155fa3b93a9c3f33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25410c81baef561017a8cf032669e85c = $(`<div id="html_25410c81baef561017a8cf032669e85c" style="width: 100.0%; height: 100.0%;">Pothole #14<br>Video: test<br>Confidence: 81.8%</div>`)[0];
+                popup_d68ccb17b90f2d0a155fa3b93a9c3f33.setContent(html_25410c81baef561017a8cf032669e85c);
+            
+        
+
+        marker_c300a71cd57ebac2cd8e91cceaf3f7ef.bindPopup(popup_d68ccb17b90f2d0a155fa3b93a9c3f33)
+        ;
+
+        
+    
+    
+                marker_c300a71cd57ebac2cd8e91cceaf3f7ef.setIcon(icon_784b1e111415c7df32cfdb801667ca67);
+            
+    
+            var marker_c08ebfa207cc5fbf2f58d458c2e4779b = L.marker(
+                [48.1506418027972, 17.067890019380616],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_58ba1e4547128a581ec8422a3bfe1195 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6fd2f29b6583b51a55218f2c2e03fa8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c2c013a75b3774008de862d1b5349fd = $(`<div id="html_4c2c013a75b3774008de862d1b5349fd" style="width: 100.0%; height: 100.0%;">Pothole #15<br>Video: test<br>Confidence: 86.5%</div>`)[0];
+                popup_d6fd2f29b6583b51a55218f2c2e03fa8.setContent(html_4c2c013a75b3774008de862d1b5349fd);
+            
+        
+
+        marker_c08ebfa207cc5fbf2f58d458c2e4779b.bindPopup(popup_d6fd2f29b6583b51a55218f2c2e03fa8)
+        ;
+
+        
+    
+    
+                marker_c08ebfa207cc5fbf2f58d458c2e4779b.setIcon(icon_58ba1e4547128a581ec8422a3bfe1195);
+            
+    
+            var marker_374a53046d125409f80a42cd4ebfadf7 = L.marker(
+                [48.15065258041958, 17.06787877972028],
+                {
+}
+            ).addTo(map_e4d8b252f9bb04bdf5519789bcc2b7f2);
+        
+    
+            var icon_67910da0dfcc3563b2783ae5b0e8f7c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a598062a8dd5c6c24de6a5f666728b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e82999bd04cf73eef4c21b538120493b = $(`<div id="html_e82999bd04cf73eef4c21b538120493b" style="width: 100.0%; height: 100.0%;">Pothole #16<br>Video: test<br>Confidence: 93.2%</div>`)[0];
+                popup_5a598062a8dd5c6c24de6a5f666728b8.setContent(html_e82999bd04cf73eef4c21b538120493b);
+            
+        
+
+        marker_374a53046d125409f80a42cd4ebfadf7.bindPopup(popup_5a598062a8dd5c6c24de6a5f666728b8)
+        ;
+
+        
+    
+    
+                marker_374a53046d125409f80a42cd4ebfadf7.setIcon(icon_67910da0dfcc3563b2783ae5b0e8f7c8);
+            
+</script>
+</html>
