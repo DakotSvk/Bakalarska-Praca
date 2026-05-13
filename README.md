@@ -42,6 +42,8 @@ The extracted video timestamps are mathematically synchronized with high-frequen
   </a>
 </p>
 
+**📄 [Read the Full Bachelor's Thesis (PDF)](Praca.pdf)**
+
 ## Resources & Bibliography
 
 ### Core AI & Machine Learning
