@@ -42,7 +42,7 @@ The extracted video timestamps are mathematically synchronized with high-frequen
   </a>
 </p>
 
-**📄 [Read the Full Bachelor's Thesis (PDF)](Praca.pdf)**
+**[Read the Full Bachelor's Thesis (PDF)](Praca.pdf)**
 
 ## Resources & Bibliography
 
@@ -58,7 +58,7 @@ The extracted video timestamps are mathematically synchronized with high-frequen
 * **[Pandas](https://pandas.pydata.org/):** Handled the ingestion and structuring of the extracted GPS telemetry.
 * **[Folium](https://python-visualization.github.io/folium/):** Used to generate the final interactive geospatial HTML map.
 
-###Bibliography & References
+### Bibliography & References
 
 1. **Straub, V. J., Morgan, D., Bright, J., & Margetts, H.** (2023). "Artificial intelligence in government: Concepts, standards, and a unified framework." *Government Information Quarterly*, 40(4), 101881.
 2. **Van Noordt, C., & Tangi, L.** (2023). "The dynamics of AI capability and its influence on public value creation of AI within public administration." *Government Information Quarterly*, 40(4), 101860.
