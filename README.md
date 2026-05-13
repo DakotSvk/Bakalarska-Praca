@@ -72,6 +72,9 @@ The extracted video timestamps are mathematically synchronized with high-frequen
 10. **Křemen, T., et al.** (2024). "Optimizing mobile laser scanning accuracy for urban applications: A comparison by strategy of different measured ground points." *Applied Sciences*, 14(8), 3387.
 11. **Ultralytics.** (2026). "YOLO26 Official Documentation and Architecture."
 
+
+## Diary
+
 ### Week 1: Environment Setup
 - Initial consultation with the supervisor.
 - Initial literature review on AI applications in the public sector.
