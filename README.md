@@ -13,6 +13,35 @@
 
 ---
 
+## Abstract
+This bachelor's thesis focuses on the design, training, and implementation of an automated software system for detecting and mapping road surface degradation using artificial intelligence. The primary objective is to provide a cost-effective alternative to subjective manual reporting and expensive LiDAR surveys by utilizing consumer-grade action cameras mounted on municipal vehicles. The core visual recognition is powered by a custom-trained YOLO26 object detection model, trained on a curated dataset of 1,369 images. To anchor these digital detections to the physical world, a custom Python pipeline was developed. This software features automated batch processing, peak-confidence deduplication logic, and a nearest-neighbor temporal synchronization algorithm that accurately pairs video frames with high-frequency GPS telemetry. 
+
+Quantitative evaluation of the model yielded a mean Average Precision (mAP@0.5) of 0.841 and a peak F1-score of 0.79. Subsequent real-world testing demonstrated the pipeline's capability to process continuous video footage and automatically output an interactive geospatial HTML map of the detected road defects. These findings indicate that the proposed architecture serves as a viable proof of concept, providing a functional baseline for data-driven road infrastructure management in municipal applications.
+
+## System Outputs & Live Examples
+
+The automated Python pipeline translates raw video footage and telemetry into actionable administrative tools. It generates a structured CSV database, annotated visual evidence, and an interactive geospatial map. Below are examples generated from our real-world continuous driving tests.
+
+### 1. Annotated Evidence Imagery
+When the YOLO26 model tracks a pothole across multiple video frames, it isolates the single frame with the absolute highest prediction confidence. The system automatically saves this frame as visual proof, overlaying the bounding box and certainty percentage before dispatching a repair crew.
+
+<p align="center">
+  <img src="Output/pothole_16_test.jpg" alt="Detected Pothole" width="600">
+  <br>
+  <em>Example of YOLO26 isolating and classifying a physical road defect at peak confidence.</em>
+</p>
+
+### 2. Interactive Geospatial Map
+The extracted video timestamps are mathematically synchronized with high-frequency GPS telemetry to map the physical locations of the detected defects. 
+
+**Click the image below to explore the live, interactive map of all detected road defects:**
+
+<p align="center">
+  <a href="https://dakotsvk.github.io/Bachelors-Thesis/Output/Map_Output.html" target="_blank">
+    <img src="Output/map_preview.jpg" alt="Interactive Map Preview" width="700">
+  </a>
+</p>
+
 ## Resources & Bibliography
 
 ### Core AI & Machine Learning
@@ -74,5 +103,7 @@
 - Meeting with supervisor about progress
 - Finished coding part of thesis
   
-### Week 8:
-- Began the writing part of the thesis
+### Weeks 8-16:
+- Writing of the text part of the thesis
+- Consultation with supervisor about the text part of the thesis
+
