@@ -38,7 +38,7 @@ The extracted video timestamps are mathematically synchronized with high-frequen
 
 <p align="center">
   <a href="https://dakotsvk.github.io/Bachelors-Thesis/Output/Map_Output.html" target="_blank">
-    <img src="Output/map_preview.jpg" alt="Interactive Map Preview" width="700">
+    <img src="Output/map_preview.png" alt="Interactive Map Preview" width="700">
   </a>
 </p>
 
